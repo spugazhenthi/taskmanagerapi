@@ -7,7 +7,7 @@ const { ObjectId } = require('mongodb')
 const router = require('./routers/user')
 const taskrouter = require('./routers/task')
 
-const port = process.env.port
+const port = process.env.PORT
 
 // app.use((req,res,next)=>{
 //     res.status(503).send('The services are unavailable')
