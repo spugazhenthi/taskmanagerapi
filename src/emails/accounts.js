@@ -15,10 +15,6 @@ const sendWelcomeEmail = async (email,name) => {
        to: email,
        subject: 'Thanks for joinging with us',
        text : `Welcome to the app, ${name}. Let me know how you get along with app.`
-   }).then((res)=>{
-       console.log(res)
-   }).catch((e)=>{
-       console.log(e)
    })
 }
 
